@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZLXibTool_Example' do
+  pod 'ZLXibTool', :path => '../'
+
+  target 'ZLXibTool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
