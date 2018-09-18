@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0F4776115107048E31452C6F /* Pods_ZLXibTool_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 146F5924F2FA9B082385D14F /* Pods_ZLXibTool_Tests.framework */; };
-		34EBD5DE21509BED00C734F5 /* ZLXibTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EBD5DC21509BEC00C734F5 /* ZLXibTool.m */; };
+		34EBD5EB2150A50800C734F5 /* ZLXibTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EBD5EA2150A50800C734F5 /* ZLXibTool.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -41,8 +41,8 @@
 		146F5924F2FA9B082385D14F /* Pods_ZLXibTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZLXibTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		17CBFB7645DA002041A5C656 /* Pods_ZLXibTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZLXibTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BFCCF8F5D5C3127C1FFCE5C /* Pods-ZLXibTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLXibTool_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZLXibTool_Example/Pods-ZLXibTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		34EBD5DC21509BEC00C734F5 /* ZLXibTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLXibTool.m; sourceTree = "<group>"; };
-		34EBD5DD21509BED00C734F5 /* ZLXibTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLXibTool.h; sourceTree = "<group>"; };
+		34EBD5E92150A50800C734F5 /* ZLXibTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZLXibTool.h; path = ../../ZLXibTool/Classes/ZLXibTool.h; sourceTree = "<group>"; };
+		34EBD5EA2150A50800C734F5 /* ZLXibTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZLXibTool.m; path = ../../ZLXibTool/Classes/ZLXibTool.m; sourceTree = "<group>"; };
 		36A8DFDE4CB03C5DE110372A /* ZLXibTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZLXibTool.podspec; path = ../ZLXibTool.podspec; sourceTree = "<group>"; };
 		37DF8285AB7A782F71B94BDE /* Pods-ZLXibTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLXibTool_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZLXibTool_Tests/Pods-ZLXibTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZLXibTool_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLXibTool_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,8 +135,8 @@
 		6003F593195388D20070C39A /* Example for ZLXibTool */ = {
 			isa = PBXGroup;
 			children = (
-				34EBD5DD21509BED00C734F5 /* ZLXibTool.h */,
-				34EBD5DC21509BEC00C734F5 /* ZLXibTool.m */,
+				34EBD5E92150A50800C734F5 /* ZLXibTool.h */,
+				34EBD5EA2150A50800C734F5 /* ZLXibTool.m */,
 				6003F59C195388D20070C39A /* ZLAppDelegate.h */,
 				6003F59D195388D20070C39A /* ZLAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -364,8 +364,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* ZLAppDelegate.m in Sources */,
+				34EBD5EB2150A50800C734F5 /* ZLXibTool.m in Sources */,
 				6003F5A7195388D20070C39A /* ZLViewController.m in Sources */,
-				34EBD5DE21509BED00C734F5 /* ZLXibTool.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

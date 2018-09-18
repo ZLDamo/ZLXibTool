@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		20232DF7700B7A1670F624F1BFA89B6D /* ZLXibTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA9E0AAB099CDCA4F54EF94175C247B1 /* ZLXibTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34EBD5E72150A47E00C734F5 /* ZLXibTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 34EBD5E52150A47D00C734F5 /* ZLXibTool.h */; };
+		34EBD5E82150A47E00C734F5 /* ZLXibTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EBD5E62150A47D00C734F5 /* ZLXibTool.m */; };
 		54FC0EC2F8A3453794D4A5315266AEC4 /* Pods-ZLXibTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDB473DCC225D71F8A6944573416962 /* Pods-ZLXibTool_Tests-dummy.m */; };
 		64987E2995EB907EFE9358B10928284E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		6C91B6573C27BB75B9B002FCA0998AB0 /* Pods-ZLXibTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3460BD847123260753D2A75DAEC1B404 /* Pods-ZLXibTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -16,7 +18,6 @@
 		C271B2B9A2387459BC0A3AF5198D7743 /* ZLXibTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74079A3DC4D88A87B4A85C206A53B21D /* ZLXibTool-dummy.m */; };
 		E3E03DAB8D22C98DAA743E5C5E7A6033 /* Pods-ZLXibTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F301561920AF0D8149A6F3B19F5D0BF /* Pods-ZLXibTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6DB2322BD99B3ED4D4C6272E312A9CF /* Pods-ZLXibTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65CB0E366F56BE2CB153764437E3BA07 /* Pods-ZLXibTool_Example-dummy.m */; };
-		F51E94492DA0E8A8996325446E7A6B32 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 406EB96B71A490AB9E493FBB6E3D39E5 /* ReplaceMe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,33 +38,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		10E32212A738E6EF5CA6A872E749D714 /* Pods_ZLXibTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZLXibTool_Example.framework; path = "Pods-ZLXibTool_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		11E01268596C0192134176F6D9EE0AC0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		10E32212A738E6EF5CA6A872E749D714 /* Pods_ZLXibTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZLXibTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11E01268596C0192134176F6D9EE0AC0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1694EC437C6C0954EA504523ACC244BD /* Pods-ZLXibTool_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZLXibTool_Example-resources.sh"; sourceTree = "<group>"; };
 		1EC4E8939ABA6A8862203EB4FE4F3753 /* ZLXibTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZLXibTool.modulemap; sourceTree = "<group>"; };
-		248BEB5DD2294B9DFD19D8F907D983F5 /* ZLXibTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ZLXibTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		254E82736EB7D0FBCF35BDD096BAA331 /* ZLXibTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZLXibTool.framework; path = ZLXibTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		248BEB5DD2294B9DFD19D8F907D983F5 /* ZLXibTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ZLXibTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		254E82736EB7D0FBCF35BDD096BAA331 /* ZLXibTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZLXibTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ED08579B76EFC5EEFF138E484435B4D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F301561920AF0D8149A6F3B19F5D0BF /* Pods-ZLXibTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZLXibTool_Example-umbrella.h"; sourceTree = "<group>"; };
 		3178BBC7F3D3BDF0CD6DFC9E6AFB4CE9 /* Pods-ZLXibTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZLXibTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		31E29A71B929DAA0C510BC9C12DBBB07 /* ZLXibTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLXibTool.xcconfig; sourceTree = "<group>"; };
 		3460BD847123260753D2A75DAEC1B404 /* Pods-ZLXibTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZLXibTool_Tests-umbrella.h"; sourceTree = "<group>"; };
+		34EBD5E52150A47D00C734F5 /* ZLXibTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZLXibTool.h; path = ZLXibTool/Classes/ZLXibTool.h; sourceTree = "<group>"; };
+		34EBD5E62150A47D00C734F5 /* ZLXibTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZLXibTool.m; path = ZLXibTool/Classes/ZLXibTool.m; sourceTree = "<group>"; };
 		3931647A71404D31FBF3B9D05B8EC3E8 /* Pods-ZLXibTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLXibTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3B04D72C555D638630D6C871E19DB6C7 /* Pods-ZLXibTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLXibTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		406EB96B71A490AB9E493FBB6E3D39E5 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZLXibTool/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		4942FEB0C52BABC3708E9840A2C2CF95 /* Pods-ZLXibTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZLXibTool_Example-frameworks.sh"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		65CB0E366F56BE2CB153764437E3BA07 /* Pods-ZLXibTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZLXibTool_Example-dummy.m"; sourceTree = "<group>"; };
 		6D9D648C94515D15DE6F5587F8A80C48 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74079A3DC4D88A87B4A85C206A53B21D /* ZLXibTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZLXibTool-dummy.m"; sourceTree = "<group>"; };
 		7A5915C9F31774249495512B30E61F7C /* Pods-ZLXibTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZLXibTool_Example.modulemap"; sourceTree = "<group>"; };
-		7F7F0859AB1D56798985DF28163DE389 /* Pods_ZLXibTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZLXibTool_Tests.framework; path = "Pods-ZLXibTool_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		891D3FD898AC66F7DFB824CD3B951EDA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7F7F0859AB1D56798985DF28163DE389 /* Pods_ZLXibTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZLXibTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		891D3FD898AC66F7DFB824CD3B951EDA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		8FA78067C6D2B288D56A7AEDB21B158E /* ZLXibTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZLXibTool-prefix.pch"; sourceTree = "<group>"; };
 		8FDB473DCC225D71F8A6944573416962 /* Pods-ZLXibTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZLXibTool_Tests-dummy.m"; sourceTree = "<group>"; };
 		90E33A15F06223C701EF4CEEB0B6EF73 /* Pods-ZLXibTool_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZLXibTool_Tests-resources.sh"; sourceTree = "<group>"; };
 		916623C5F0B06BD11E29A2E9B57FFAAC /* Pods-ZLXibTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZLXibTool_Tests.modulemap"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		98B0793F110CD9847BFD19DECAD3FA2F /* Pods-ZLXibTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZLXibTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		98F8FC352B6B8E039C9353BAAA92B24D /* Pods-ZLXibTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLXibTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9D692879D269BC4E49D337F7064BF384 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -219,7 +221,8 @@
 		F922A4790BD3F6B24D3BB7B44684C4EA /* ZLXibTool */ = {
 			isa = PBXGroup;
 			children = (
-				406EB96B71A490AB9E493FBB6E3D39E5 /* ReplaceMe.m */,
+				34EBD5E52150A47D00C734F5 /* ZLXibTool.h */,
+				34EBD5E62150A47D00C734F5 /* ZLXibTool.m */,
 				85D7554887E33470787CBA302E96115E /* Pod */,
 				D306C04862A014842F6696CDA703ADEB /* Support Files */,
 			);
@@ -234,6 +237,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34EBD5E72150A47E00C734F5 /* ZLXibTool.h in Headers */,
 				E3E03DAB8D22C98DAA743E5C5E7A6033 /* Pods-ZLXibTool_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,7 +347,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F51E94492DA0E8A8996325446E7A6B32 /* ReplaceMe.m in Sources */,
 				C271B2B9A2387459BC0A3AF5198D7743 /* ZLXibTool-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,6 +356,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6DB2322BD99B3ED4D4C6272E312A9CF /* Pods-ZLXibTool_Example-dummy.m in Sources */,
+				34EBD5E82150A47E00C734F5 /* ZLXibTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
