@@ -7,8 +7,11 @@
 //
 
 #import "ZLViewController.h"
+#import "ZLXibTool.h"
 
 @interface ZLViewController ()
+
+@property (nonatomic, strong) ZLXibTool *tool;
 
 @end
 
@@ -17,7 +20,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.tool = [ZLXibTool tool];
+    [self.tool setSubViewsConstraint:self.view];
 }
 
 - (void)didReceiveMemoryWarning

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ZLXibTool'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ZLXibTool.'
+  s.summary          = 'auto constraint for xib'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,15 +17,15 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
+  s.description      = "The constraints in xib are automatically adapted to fit in a wide scale,you just import the file,and call  like '[tool setSubViewsConstraint:rootView]'"
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/ZLDamo@163.com/ZLXibTool'
+  s.homepage         = 'https://github.com/ZLDamo/ZLXibTool.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ZLDamo@163.com' => 'ZLDamo@163.com' }
-  s.source           = { :git => 'https://github.com/ZLDamo@163.com/ZLXibTool.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ZLDamo/ZLXibTool.git', :tag => 0.1.0}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

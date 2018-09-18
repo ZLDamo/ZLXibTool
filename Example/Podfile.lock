@@ -1,0 +1,16 @@
+PODS:
+  - ZLXibTool (0.1.0)
+
+DEPENDENCIES:
+  - ZLXibTool (from `../`)
+
+EXTERNAL SOURCES:
+  ZLXibTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZLXibTool: f6455e5a2db3fc8692bea0369475ff1cae3c2211
+
+PODFILE CHECKSUM: 7879ff1e35b8de4f5f8b7a6891042061c6c74c6f
+
+COCOAPODS: 1.5.3

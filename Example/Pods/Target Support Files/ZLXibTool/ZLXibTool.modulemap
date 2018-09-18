@@ -1,0 +1,6 @@
+framework module ZLXibTool {
+  umbrella header "ZLXibTool-umbrella.h"
+
+  export *
+  module * { export * }
+}
